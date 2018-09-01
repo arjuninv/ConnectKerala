@@ -1,0 +1,17 @@
+.nav-wrapper {
+	background-color: #2196f3;
+	font-family: 'Comfortaa', cursive;
+}
+.title {
+	font-size: 28px;
+
+}
+
+@media (
+
+	-width: 600) {
+ .title {
+	font-size: 18px;
+}
+}
+
