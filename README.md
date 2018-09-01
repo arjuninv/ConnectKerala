@@ -1,7 +1,7 @@
 # ConnectKeralaAbout (What is ConnectKerala) #
 ConnectKerala is a Machine Learning (ML) powered platform aimed at connecting the victims and the relief workers involved in re-building the flood-hit state of Kerala with the required information from the ‘flood of tweets’ in the easiest manner. 
 
-Website: https://connectkerala2018.firebaseapp.com/about.html
+Website: https://connectkerala2018.firebaseapp.com
 
 ## The platform offers the following features: ##
 1) Allows Help Seekers to search for and locate Distribution Centers available in their area for availing goods & services 
