@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>ConnectKerala</title>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="icon" href="./images/favicon.png" type="image/png" sizes="16x16">
+
+    </head>
+    
+    <body>
+
+      <script type="text/javascript" src="js/script.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+      <nav>
+        <div class="nav-wrapper">
+        <a href="./index.html" class="title" style="padding-left: 20px; padding-right: 20px;">ConnectKerala</a>
+        <ul class="right">
+        <li><a href="test.html">Test</a></li>
+        <li><a href="about.html">About</a></li>
+        </ul>
+        
+        </div>
+
+
+      </nav>
+
+        <div class="container">
+          <div class="row" style="padding-top: 40px;">
+
+
+            <div class="col s12 m12 l6" >
+                
+                <div class="section">
+                    <p class="flow-text" style="font-size: 16px">
+      Learn more about ConnectKerala, and find out how it works <a href="./about.html">here</a>.
+    </p>
+              <h5 style="padding-top: 16px;">Category:</h5>
+              <p>What do you wish to locate?</p>
+                <select class="browser-default hoverable" id="select" onchange="load()">
+                    <option value="1">Help Offers</option>
+                    <option value="2">Help Requests</option>
+                </select> 
+                </div> 
+              </div>
+
+            <div class="col s12 m12 l6">
+                <div class="card-panel grey lighten-5 z-depth-1 hoverable">
+                    <div class="row valign-wrapper">
+                        <div class="col s2">
+                          <img src="https://ih1.redbubble.net/image.417528111.1120/flat,800x800,075,f.jpg" alt="" class="circle responsive-img">
+                        </div>
+                        <div class="col s10">
+                            <p>Check out the ML Engine that works behind the scene to classify the tweets.</p>
+                        </div>
+                      </div>
+                      <div class="card-action">
+          <a href="./test.html">Test</a>
+        </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="row" stlye="padding-top: 20px;">
+              <div class="col s12 m12 l6">
+              <h5 id="category">Help Offers</h5>
+            </div>
+             <div class="col s12 m12 l6">
+
+                      <input id="search" type="text" placeholder="Search (Example: food, cleaning, medicine, alappuzha) " onkeyup="load()">
+            </div>
+            </div>
+            <div id="list">
+            </div>
+
+            </div>
+
+
+
+
+
+
+    </body>
+  </html>

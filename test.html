@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>ConnectKerala | About</title>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <link rel="icon" href="./images/favicon.png" type="image/png" sizes="16x16">
+
+    </head>
+
+    <body>
+
+      <script type="text/javascript" src="js/test.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+      <nav>
+        <div class="nav-wrapper">
+        <a href="./index.html" class="title" style="padding-left: 20px; padding-right: 0px; padding-top: 3px;">ConnectKerala</a>
+        <a href="./test.html" class="breadcrumb hide-on-med-and-down">Test</a>
+        <ul class="right">
+        <li class="active"><a href="test.html">Test</a></li>
+        <li><a href="about.html">About</a></li>
+        </ul>
+        
+        </div>
+      </nav>
+
+      <div class="container">
+        <br>
+        <div class="row">
+          <div class="col s12">
+        <h4>Copy/Paste a tweet:</h4>
+        <p class="flow-text" style="font-size: 16px">Experience how the ML Engine classifies it as either 'Help Offer' or 'Help Request'.<br>Copy and paste a tweet to check if the ML engine is able to classify it as a "Help Request" or a "Help Offer. Make sure the tweet is related to Kerala floods / rehabilitation activities.</p>
+          </div></div>
+        <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="tweet" class="materialize-textarea" placeholder="Paste a tweet related to Kerala floods / rehabilitation activities (from any hashtag such as #KeralaFloodRelief)"></textarea>
+          <p id="result" class="flow-text" style="color: #2196f3; margin-bottom: 0px;"></p>
+          <p id="score" style="color: #757575; font-size: 15px; margin-top: 0px;"></p>
+          <a class="waves-effect waves-light btn" onclick="classify()">Classify</a>
+
+        </div>
+      </div>
+    </form>
+  </div>
+      </div>
+
+        
+    </body>
+  </html>
