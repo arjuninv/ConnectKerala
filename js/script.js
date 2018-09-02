@@ -11,8 +11,8 @@ function load() {
 	theDiv.innerHTML = "";
 	var search = " AND col0 CONTAINS ignoring case '" + document.getElementById("search").value + "'";
 	switch(choice) {
-		case '1': document.getElementById("category").innerHTML = "Help Offers"; var url = "https://www.googleapis.com/fusiontables/v2/query?sql=SELECT * FROM 1gKd1T8bUKElusMhQp_ELjuSE_eLbgfQJtNjwE9OD WHERE col2 = 'help_offer'" + search + "&key=AIzaSyARCOsBV8IZkJq-D65aM8Xk_ZcE6gUgGt4"; break;
-		case '2': document.getElementById("category").innerHTML = "Help Requests"; var url = "https://www.googleapis.com/fusiontables/v2/query?sql=SELECT * FROM 1gKd1T8bUKElusMhQp_ELjuSE_eLbgfQJtNjwE9OD WHERE col2 = 'help_request'" + search + "&key=AIzaSyARCOsBV8IZkJq-D65aM8Xk_ZcE6gUgGt4"; break;
+		case '1': document.getElementById("category").innerHTML = "Help Offers"; var url = "https://www.googleapis.com/fusiontables/v2/query?sql=SELECT * FROM 1gKd1T8bUKElusMhQp_ELjuSE_eLbgfQJtNjwE9OD WHERE col2 = 'help_offer'" + search + "&key=<API KEY>"; break;
+		case '2': document.getElementById("category").innerHTML = "Help Requests"; var url = "https://www.googleapis.com/fusiontables/v2/query?sql=SELECT * FROM 1gKd1T8bUKElusMhQp_ELjuSE_eLbgfQJtNjwE9OD WHERE col2 = 'help_request'" + search + "&key=<API KEY>"; break;
 	}
 
 var xmlhttp = new XMLHttpRequest();
