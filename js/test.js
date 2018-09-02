@@ -11,7 +11,7 @@
     xhttp.open("POST", "https://www.googleapis.com/oauth2/v4/token", true);
     xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
-    xhttp.send('refresh_token=1/e6Es-vrZLI8Ej_P8-UdQEXZH2HjZZzrkseCUDXEAOPI&&client_id=906405353714-t1p93lkuo9h2hpj1fhdbit4u6urlq6dv.apps.googleusercontent.com&&client_secret=e_iTb5e7rt4mfOyLwuiTGEsM&grant_type=refresh_token');
+    xhttp.send('refresh_token=<REFRESH TOKEN>&client_id=<CLIENT ID>&client_secret=<CLIENT SECRETE>&grant_type=refresh_token');
 
 });
  
